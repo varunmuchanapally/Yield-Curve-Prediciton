@@ -7,7 +7,7 @@
 
 This repository contains a Jupyter Notebook project that models and predicts the U.S. Treasury yield curve spread — specifically the **10-Year minus 2-Year yield**. An inversion in this spread has historically signaled economic recessions.
 
----
+
 
 📘 Files
 
@@ -32,6 +32,8 @@ To forecast when the yield curve is likely to invert (i.e., when the 10Y-2Y spre
 
 This approach can act as an early-warning system for economic downturns.
 
+
+
  📈 Results
 
 After training the model with macroeconomic indicators:
@@ -42,6 +44,8 @@ After training the model with macroeconomic indicators:
 
 These results indicate **extremely high predictive accuracy**. The R² score of 0.9998 suggests the model can explain over 99.98% of the variance in the yield spread, while the RMSE of 0.0115 means the average prediction error is nearly negligible.
 
+
+
 📉 Observations
 
 - The model closely fits historical yield spread values, including periods of inversion.
@@ -49,6 +53,7 @@ These results indicate **extremely high predictive accuracy**. The R² score of 
 - Lagged economic indicators such as CPI, oil price, and Fed Funds rate played a significant role in improving prediction accuracy.
 
 > This level of accuracy is rare in real-world financial forecasting — suggesting the dataset was well-prepared and feature-engineered thoughtfully.
+
 
 
 🔧 Requirements
