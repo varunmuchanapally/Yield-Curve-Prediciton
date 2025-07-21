@@ -24,11 +24,11 @@ This repository contains a Jupyter Notebook project that models and predicts the
 
 To forecast when the yield curve is likely to invert (i.e., when the 10Y-2Y spread becomes negative), by learning from macroeconomic trends such as:
 
-- **Federal Funds Rate**
-- **Consumer Price Index (CPI)**
-- **Crude Oil Prices**
-- **Consumer Sentiment**
-- **Unemployment Rate**
+- Federal Funds Rate
+- Consumer Price Index (CPI)
+- Crude Oil Prices
+- Consumer Sentiment
+- Unemployment Rate
 
 This approach can act as an early-warning system for economic downturns.
 
@@ -38,9 +38,9 @@ This approach can act as an early-warning system for economic downturns.
 
 After training the model with macroeconomic indicators:
 
-- ✅ **Model Used**: `XGBoostRegressor`
-- 📉 **RMSE (Root Mean Squared Error)**: **0.0115**  
-- 📊 **R² Score**: **0.9998**
+- ✅ Model Used: `XGBoostRegressor`
+- 📉 RMSE (Root Mean Squared Error): 0.0115
+- 📊 R² Score**: 0.9998
 
 These results indicate **extremely high predictive accuracy**. The R² score of 0.9998 suggests the model can explain over 99.98% of the variance in the yield spread, while the RMSE of 0.0115 means the average prediction error is nearly negligible.
 
