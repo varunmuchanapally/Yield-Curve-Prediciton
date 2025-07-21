@@ -12,13 +12,13 @@ Great — let’s expand the `README.md` to include a **Results** section based 
 ### ✅ Final `README.md` with Results Section
 
 ````markdown
-# 📈 Yield Curve Prediction
+📈 Yield Curve Prediction
 
 This repository contains a Jupyter Notebook project that models and predicts the U.S. Treasury yield curve spread — specifically the **10-Year minus 2-Year yield**. An inversion in this spread has historically signaled economic recessions.
 
 ---
 
-## 📘 Files
+📘 Files
 
 - `Yield_curve_prediction.ipynb`: End-to-end workflow that:
   - Loads macroeconomic data from FRED API
@@ -27,11 +27,9 @@ This repository contains a Jupyter Notebook project that models and predicts the
   - Predicts the 10Y–2Y yield curve spread
   - Evaluates the performance and interprets results
 
-- `dm2v2.ipynb`: A supporting notebook for intermediate feature construction and dataset sanity checks.
 
----
 
-## 🎯 Objective
+🎯 Objective
 
 To forecast when the yield curve is likely to invert (i.e., when the 10Y-2Y spread becomes negative), by learning from macroeconomic trends such as:
 
@@ -43,8 +41,7 @@ To forecast when the yield curve is likely to invert (i.e., when the 10Y-2Y spre
 
 This approach can act as an early-warning system for economic downturns.
 
----
-## 📈 Results
+ 📈 Results
 
 After training the model with macroeconomic indicators:
 
@@ -54,7 +51,7 @@ After training the model with macroeconomic indicators:
 
 These results indicate **extremely high predictive accuracy**. The R² score of 0.9998 suggests the model can explain over 99.98% of the variance in the yield spread, while the RMSE of 0.0115 means the average prediction error is nearly negligible.
 
-### 📉 Observations
+📉 Observations
 
 - The model closely fits historical yield spread values, including periods of inversion.
 - Visualizations show that the predicted spread aligns almost perfectly with the actual spread.
@@ -62,19 +59,11 @@ These results indicate **extremely high predictive accuracy**. The R² score of 
 
 > This level of accuracy is rare in real-world financial forecasting — suggesting the dataset was well-prepared and feature-engineered thoughtfully.
 
----
 
-## 🧪 Sample Forecast Plot
-
-> *(Insert visual later if desired using: `![prediction](screenshots/predicted_curve.png)`)*
-
----
-
-## 🔧 Requirements
+🔧 Requirements
 
 To run this notebook, install the following:
 
-```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost fredapi
 ````
 
