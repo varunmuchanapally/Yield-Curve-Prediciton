@@ -1,15 +1,7 @@
 # Yield-Curve-Prediciton
 
-Great — let’s expand the `README.md` to include a **Results** section based on the notebook content. Since I have access to both notebooks, here's a combined `README.md` including:
-
-* Project summary
-* Workflow overview
-* Results interpretation (based on model evaluation metrics and yield curve behavior)
-* Setup instructions
-
 ---
 
-### ✅ Final `README.md` with Results Section
 
 ````markdown
 📈 Yield Curve Prediction
